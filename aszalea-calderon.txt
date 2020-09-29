@@ -1,0 +1,142 @@
+Codepen- https://codepen.io/aszaraine/pen/ExKzZEG
+ 
+
+   1. What is Semantic HTML?
+	 Semantic html is discriptive tag that the search engine looks for.
+
+    2. What is HTML used for? 
+	Html is the structure of a website. It has tags that create meaning.
+
+    3. What is an attribute and where do we put it? 
+	An attribute are used to include information in an element that we don't want to render on the page. In html
+	these include things like hight and width. They are used in combination with css to style a page. Examples include <a href="#">
+
+    4. What is the h1 tag used for? How many times should I use it on a page?
+	The h1 tag is used for the most important information on the page. Typically this is where you put the name of the site. H1 should 
+	only be used once. Search engines pull meaning from this tags.
+
+    5. Name two tags that have required attributes	
+	<a href='#'></a> and <img src="#'>
+	
+    6. What do we put in the head of our HTML document? 
+	<title>, <charset>	
+
+    7. What is an id? 
+	An id is something that we name to seperate one tag from another. They are noted in css with a #. It allows you to style things easier. 
+
+    8. What elements can I add an id to? 
+	Any
+
+    9. How many times can I use the same id on a page?
+	You can used id once on a page. 
+ 
+    10. What is a class? 
+	Class is similar to id in that you name it what ever you want and that it is used in styling. Class, unlike ID, can be reused on multiple elements. 		
+
+    11. What elements can I add a class to? 
+	Any
+
+    12. How many times can I use the same class on a page? 
+	You can add class as many times as you want on a page
+
+    13. How do I get my link to open in a new tab?
+	In your link at the end write the following: target= "_blank"
+
+    14. What is the alt attribute in the image tag used for? 
+	Alt is used for screen readers and accessibility purposes. 
+
+    15. How do I reference an id?
+	#itemName
+
+    16. What is the difference between a section and a div
+	Section is a way to block out things on a page, it divides sections. Div's are used to wrap and style things
+
+    17. What is CSS used for? 
+	Css is used to style a page
+
+    18. How to we select an element? Example - every h2 on the page
+	h2 {Put your style here}
+
+    19. What is the difference between a class and an id? - Give me an example of when I might use each one
+	Class would be used when you want to style a group of things. For example, only half the buttons on a page. Id would be used when you want to style only ONE thing. For example, only one paragraph. 
+
+    20. How do we select classes in CSS?
+	.className{
+	style
+	}
+
+    21. How do we select a p element with a single class of “human””?
+	p .human{
+	style
+	}
+
+    22. What is a parent child selector? When would this be useful? 
+	A parent child selector is when something is nested in something else. For example <ul><li></li></ul> the ul is the parent of the li element. This is useful when you want to select
+	an entire section rather than have to style twice.	
+
+    23. How do you select all links within a div with the class of sidebar?
+	div .sidebar{
+	put your style here!
+}
+    24. What is a pseudo selector?
+	A pseudo selector targets specific states of elements. This could include things like button hovers on onclick effects
+
+    25. What do we use the change the spacing between lines?
+	line-height: ;
+
+    26. What do we use to change the spacing between letters?
+	letter-spacing:;
+
+    27. What do we use to to change everything to CAPITALS? lowercase? Capitalize?
+	text-transform: lowercase (to lowercase) text-transform: uppercase; (to make uppercase), text-transform:capitalize; (to capitalize)
+
+    28. How do I add a 1px border around my div that is dotted and black?
+	div{
+	border-style:dotted;
+	border-color:black;
+	}
+
+    29. How do I select everything on the page? 
+	*{
+}
+
+    30. How do I write a comment in CSS?
+	/*This is how I write a comment*/
+
+    31. How do I find out what file I am in, when I am using the command line? 
+	You look at the line you are on and see what file you are in, it should say the drive you are in, user, etc. Example would look like C:\\Users\aszal\desktop
+
+    32. Using the command line - how do I see a list of files/folders in my current folder?
+	You would type ls to see the list of files in your current folder.
+
+
+    33. How do I remove a file via the command line? Why do I have to be careful with this? 
+	rm file name. I have to be extremely carful with this becuase there is no way to return the file when I delete it and there is also no confrimation. 
+
+    34. Why should I use version control? 
+	This creates a history of the file you are working on. If something becomes corrupted or lost, you still have a copy.
+
+    35. How often should I commit to github?
+	You should commit to github as often as you would save the file
+
+    36. What is the command we would use to push our repo up to github? 
+	git push -u origin aszalea-calderon
+
+    37. Walk me through Lambda's git flow. 
+	When we get a project we will be assigned it through git. We will fork the project, make a clone, move into the folder and branch the work, Do the work you need to do,
+	Then we add the gile to the staging area, with the command git add ., commit the file by writing git commit -m "Make a comment as to why the changes are being made", then push to
+	github. 
+
+Stretch Questions
+
+    1. What is the difference between an inline element and a block element?
+	An inline element does not push things to a new line, where block elements do
+
+    2. What happens when an element is positioned absolutely? 
+    3. How do I make an element take up only the amount of space it needs but also have the ability to give it a width? 
+    4. Name 3 elements that are diplay block by default, 2 elements that are display inline by default and 1 element that is display inline-block by default
+    5. In your own words, explain the box model. What is the "fix" for the box model, in other words, how do we make all elements respect the width we've given them? 
+
+
+
+   --> 
